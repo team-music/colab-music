@@ -1,0 +1,14 @@
+footer{
+    background-color: white;
+    margin-left : 0%;
+    @include flexcenter();
+    img{
+        width : 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+}
+.container-footer{
+    @include flexcenter();
+}
