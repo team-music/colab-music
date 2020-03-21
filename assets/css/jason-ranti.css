@@ -112,6 +112,9 @@ body {
 
 .album-jason img {
   margin-bottom: 15px;
+  margin-left: 30px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .main3 h3 {
@@ -177,21 +180,8 @@ body {
   color: white;
 }
 
-.video {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  position: relative;
-  width: 100%;
-  padding-bottom: 56.25;
-  height: 0;
-}
-
-.video iframe {
-  position: absolute;
+.main4 {
+  margin-bottom: 100px;
 }
 
 .hr-boundary {
@@ -201,9 +191,17 @@ body {
   margin-top: 23px;
 }
 
-@media (min-width: 320px) and (max-width: 418px) {
+.section-footer {
+  margin-top: 10px !important;
+}
+
+@media (min-width: 319px) and (max-width: 418px) {
   .album-jason {
-    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .merchandise img {
+    height: 100px !important;
+    width: 100p !important;
   }
 }
 /*# sourceMappingURL=jason-ranti.css.map */
