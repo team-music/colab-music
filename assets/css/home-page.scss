@@ -1,0 +1,250 @@
+@mixin flexcenter{
+    display: flex;
+    justify-content: center;
+
+}
+@mixin boundary{
+    width: 100%;
+    border-top: 3px solid;
+    color: white;
+    margin-top : 23px;
+}
+@mixin album-size{
+    width: 233;
+    height: 209;
+}
+@mixin event-size{
+    height :300;
+}
+@import "./navigation";
+@import "./footer";
+
+body{
+    background-color: black;
+    
+}
+
+.main1{
+    
+    p{
+        font-size: 30px;
+        font-family: 'Petrona', serif;
+        color: black !important;
+    }
+    
+    h4{
+        font-family: 'Petrona', serif;
+    }
+    hr{
+        width: 40%;
+        border-top: 2px solid;
+        color: black;
+    }
+}
+.main2{
+    h3{
+        @include flexcenter();
+        color: white !important;
+        margin : 30px 0px 0px 20px;
+        font-family: 'Sumana', serif;
+    }
+    hr{
+        width: 20%;
+        border-top: 2px solid;
+        color: white;
+    }
+    p{
+        display: flex;
+        justify-content: flex-start;
+        margin : 30px 0px 0px 40px;
+        font-family: 'Scope One', serif;
+        font-size: 20px;
+        color: white;
+    }
+    img{
+        width :630px !important;
+        height: 650px;
+        margin-left: 60px;
+        justify-content: flex-end !important;
+    }
+    
+}
+
+.main3{
+    
+    h3{
+        @include flexcenter();
+        color: white !important;
+        font-family: 'Sumana', serif;
+        margin-top: 20px;
+    }
+    hr{
+        width: 10%;
+        border-top: 2px solid;
+        color: white;
+    }
+    img{
+        width : 300px !important;
+        height: 250px;
+        margin-bottom: 20px;
+        margin-left: 60px;
+    }
+    button{
+        display: flex;
+        justify-content: center;
+        margin-left: 40%;
+        margin-bottom: 20px;
+    }
+}
+.album-1{
+    display: flex;
+    justify-content: center;
+}
+
+.main4{
+   
+    h3{
+        @include flexcenter();
+        color: white !important;
+        font-family: 'Sumana', serif;
+        margin-top: 20px;
+    }
+    hr{
+        width: 10%;
+        border-top: 2px solid;
+        color: white;
+    }
+    
+}
+.acara{
+    img{
+        @include flexcenter();
+        display: flex !important;
+        justify-content: center !important;
+        width : 400px !important;
+        height: 280px;
+        margin-bottom: 50px;
+        margin-left : 80px;
+    }
+    img:hover{
+        transform: scale(1.02);
+    }
+}
+
+.section-footer {
+    h1{
+        margin-top : 3%;
+        font-family: 'Sumana', serif;
+        @include flexcenter();   
+    }
+    hr{
+        width:80%;
+        border-top : 2px solid;
+        @include flexcenter();
+       
+    }
+}
+
+
+
+
+
+.hr-boundary{
+    @include boundary();
+   
+}
+.hr-boundary-2{
+    @include boundary();
+   
+}
+
+
+    
+
+@media screen and (max-width: 319px) {
+    .logo{
+        font-size: 20px;
+        text-align: center; 
+    }
+    .navbar-fixed{
+        font-family: 'Rum Raisin', sans-serif; 
+        img{
+            width : 30px;
+            height : 30px ;
+            margin-left: -8px;
+        }
+    }
+    .pp{
+        font-size: 10px;
+        
+    }
+    .main2{
+        img{
+            width :200px !important;
+            height: 200px;
+            margin-left : 30px;
+        }
+    }
+    .main3{
+        width : 300px !important;
+        height: 250px;
+        margin-bottom: 20px;
+        margin-left: 30px;
+    }
+}
+@media (min-width: 320px) and (max-width: 418px) {
+    .main2{
+        img{
+            width :300px !important;
+            height: 200px;
+            margin-left : 30px;
+        }
+    }
+    .main3{
+        img{
+            width :280px !important;
+            height: 250px;
+            margin-left : 30px;
+        }
+    }
+    .main4{
+        img{
+            width :200px !important;
+            height: 200px;
+            margin-left : 20%;
+        }
+    }
+}
+@media (min-width: 419px) and (max-width: 859px)  {
+    .main1{
+        p{
+            font-size: 28px;
+        }
+    }
+    .main2{
+        img{
+            width :350px !important;
+            height: 350px;
+            
+        }
+    }
+    .main3{
+        img{
+            width : 300px !important;
+            height: 250px;
+            margin-bottom: 20px;
+            margin-left: 15%;
+        }
+       
+    }
+    .main4{
+        img{
+            width : 200px !important;
+            height: 200px;
+            margin-bottom: 20px;
+            margin-left: 15%;
+        }
+       
+    }
+}
+
