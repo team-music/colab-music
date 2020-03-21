@@ -1,0 +1,127 @@
+@mixin boundary{
+    width: 100%;
+    border-top: 3px solid;
+    color: white;
+    margin-top : 23px;
+}
+@mixin flexcenter{
+    display: flex;
+    justify-content: center;
+}
+@mixin merch-size{
+    height : 330px;
+    width:  330px;
+}
+@import "./navigation";
+@import "./footer";
+
+body{
+    background-color: black;
+}
+
+.main1{
+    img{
+        width : 100%;
+        height : 50%;
+    }
+}
+.main2{
+    
+    h3{
+        @include flexcenter();
+        color: white !important;
+        font-family: 'Sumana', serif;
+        margin-top: 30px;
+    }
+    hr{
+        width: 5%;
+        border-top: 2px solid;
+        color: white;
+    }
+}
+.album-jason{
+    display: flex;
+    justify-content: center;
+    button{
+        @include flexcenter();
+        margin-bottom: 20px;
+        margin-left: 70px;
+        margin-right: 20px;
+    }
+    h4{
+        @include flexcenter();
+        font-size: 22px;
+        color: white !important;
+        font-family: 'Sumana', serif;
+        margin-bottom: 15px;
+    }
+    img{
+        margin-bottom: 15px;
+        margin-left: 30px;
+        justify-content: space-around;
+    }
+}
+
+.main3{
+    h3{
+        @include flexcenter();
+        color: white !important;
+        font-family: 'Sumana', serif;
+        margin-top: 30px;
+    }
+    hr{
+        width: 5%;
+        border-top: 2px solid;
+        color: white;
+    }
+    
+}
+.merchandise{
+    display: flex;
+    justify-content: center;
+    img{
+        @include merch-size();
+        @include flexcenter();
+        margin-bottom: 50px;
+        margin-left : 10px;
+    }
+    img:hover{
+        transform: scale(1.02);
+    }
+}
+
+.main4{
+    h3{
+        @include flexcenter();
+        color: white !important;
+        font-family: 'Sumana', serif;
+        margin-top: 30px;
+    }
+    hr{
+        width: 5%;
+        border-top: 2px solid;
+        color: white;
+    }
+}
+.main4{
+    margin-bottom: 100px;
+}
+
+.hr-boundary{
+    @include boundary();
+}
+.section-footer{
+    margin-top: 1000px !important;
+}
+
+@media (min-width: 319px) and (max-width: 418px) {
+    .album-jason{
+        margin-right: 100px;   
+    }
+    .merchandise{
+        img{
+            height: 100px !important;
+            width: 100p !important;
+        }
+    }
+}
