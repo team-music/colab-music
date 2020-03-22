@@ -23,34 +23,13 @@
   text-align: center;
 }
 
-footer {
-  background-color: white;
-  margin-left: 0%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-footer img {
-  width: 30px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.container-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 body {
   background-color: black !important;
+}
+
+.logo-color {
+  -webkit-text-fill-color: chartreuse;
+  -webkit-text-stroke: 0.7px #30302d;
 }
 
 .slide-show img {
@@ -65,5 +44,14 @@ body {
 
 .row-5 iframe {
   width: 100%;
+}
+
+.foot {
+  font-family: 'Sumana', serif;
+}
+
+.foot .hr {
+  width: 200px;
+  border-top: 3px solid black;
 }
 /*# sourceMappingURL=isyana.css.map */

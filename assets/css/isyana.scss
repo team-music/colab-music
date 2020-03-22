@@ -4,11 +4,14 @@
 }
 
 @import "./navigation";
-@import "./footer";
-
 
 body {
     background-color: black !important;
+}
+
+.logo-color {
+    -webkit-text-fill-color: chartreuse;
+    -webkit-text-stroke: 0.7px rgb(48, 48, 45);
 }
 
 .slide-show {
@@ -26,5 +29,13 @@ body {
 .row-5 {
     iframe {
         width: 100%;
+    }
+}
+
+.foot {
+    font-family: 'Sumana', serif;
+    .hr {
+        width: 200px;
+        border-top: 3px solid black;
     }
 }
