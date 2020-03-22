@@ -114,6 +114,14 @@ body{
     margin-top: 10px !important;
 }
 
+.foot {
+    font-family: 'Sumana', serif;
+    .hr {
+        width: 200px;
+        border-top: 3px solid black;
+    }
+}
+
 @media (min-width: 319px) and (max-width: 418px) {
     .album-jason{
         margin-right: 100px;   
@@ -126,10 +134,3 @@ body{
     }
 }
 
-.foot {
-    font-family: 'Sumana', serif;
-    .hr {
-        width: 200px;
-        border-top: 3px solid black;
-    }
-}
