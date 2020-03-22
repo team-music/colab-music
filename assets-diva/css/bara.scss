@@ -1,94 +1,135 @@
-body{
-    background-color: black !important;
-}
-header{
-    font-family: 'Roboto Slab', serif;
-}
-.logo{
-    font-family: 'Lobster Two', cursive;
-    color:wheat;
-    font-size: x-large;
-}
-.slide-show img{
+@mixin boundary{
     width: 100%;
-    height: 70%;
+    border-top: 3px solid;
+    color: white;
+    margin-top : 23px;
 }
-.container a{
-    color: wheat !important;
-}
-.container a:hover{
-    color: grey !important;
-}
-.main img{
-    width: 30%;
-    margin : 10px;
-}
-.main {
+@mixin flexcenter{
     display: flex;
     justify-content: center;
 }
-.main h1{
-    text-align: center;
-    font-family: 'Liu Jian Mao Cao', cursive !important;
-    color: wheat
+@mixin merch-size{
+    height : 330px;
+    width:  330px;
 }
-.main hr{
-    color : wheat;
-    border-top: 2px solid wheat;
-    width : 20%
+@import "./navigation";
+@import "./footer";
+
+body{
+    background-color: black;
 }
-.album h3{
-    font-family:'Lobster Two', cursive !important;
-    color: wheat;
-    text-align: center;
+
+.main1{
+    img{
+        width : 100%;
+        height : 50%;
+    }
 }
-.main img{
-    width: 90%;
-    justify-content: center;
+.main2{
+    
+    h3{
+        @include flexcenter();
+        color: white !important;
+        font-family: 'Sumana', serif;
+        margin-top: 30px;
+    }
+    hr{
+        width: 5%;
+        border-top: 2px solid;
+        color: white;
+    }
 }
-.album h3 {
+.album-jason{
     display: flex;
     justify-content: center;
+    button{
+        @include flexcenter();
+        margin-bottom: 20px;
+        margin-left: 70px;
+        margin-right: 20px;
+    }
+    h4{
+        @include flexcenter();
+        font-size: 22px;
+        color: white !important;
+        font-family: 'Sumana', serif;
+        margin-bottom: 15px;
+    }
+    img{
+        margin-bottom: 15px;
+        margin-left: 30px;
+        justify-content: space-around;
+    }
 }
-.album {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 2%;
-}
-.album button{
-    margin-left: 40% ;
-    margin-bottom: 5%;
-}
-.main2 h1{
-    text-align: center;
-    font-family: 'Liu Jian Mao Cao', cursive !important;
-    color: wheat
-}
-.main2 hr{
-    color : wheat;
-    border-top: 2px solid wheat;
-    width : 20%
-}
-.section-footer{
-    background-color: rgb(66, 66, 66) !important;
-    padding-top: 2%;
-}
-.section-footer h3{
-    text-align: center;
-    font-family: 'Lobster Two', cursive !important;
-    color: black;
+
+.main3{
+    h3{
+        @include flexcenter();
+        color: white !important;
+        font-family: 'Sumana', serif;
+        margin-top: 30px;
+    }
+    hr{
+        width: 5%;
+        border-top: 2px solid;
+        color: white;
+    }
     
 }
-.section-footer hr{
-    color : black;
-    border-top: 2px solid black;
-    width : 20%
-}
-.footer{
+.merchandise{
     display: flex;
     justify-content: center;
-    margin-left : 4%;
+    img{
+        @include merch-size();
+        @include flexcenter();
+        margin-bottom: 50px;
+        margin-left : 10px;
+    }
+    img:hover{
+        transform: scale(1.02);
+    }
 }
-.footer img{
-    width: 40%;
+
+.main4{
+    h3{
+        @include flexcenter();
+        color: white !important;
+        font-family: 'Sumana', serif;
+        margin-top: 30px;
+    }
+    hr{
+        width: 5%;
+        border-top: 2px solid;
+        color: white;
+    }
+}
+.main4{
+    margin-bottom: 100px;
+}
+
+.hr-boundary{
+    @include boundary();
+}
+.section-footer{
+    margin-top: 10px !important;
+}
+
+@media (min-width: 319px) and (max-width: 418px) {
+    .album-jason{
+        margin-right: 100px;   
+    }
+    .merchandise{
+        img{
+            height: 100px !important;
+            width: 100p !important;
+        }
+    }
+}
+
+.foot {
+    font-family: 'Sumana', serif;
+    .hr {
+        width: 200px;
+        border-top: 3px solid black;
+    }
 }
