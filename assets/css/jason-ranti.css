@@ -26,7 +26,6 @@
 footer {
   background-color: white;
   margin-left: 0%;
-  margin-bottom: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -39,7 +38,16 @@ footer img {
   width: 30px;
   margin-left: 10px;
   margin-right: 10px;
-  margin-bottom: 120px;
+  margin-bottom: 10px;
+}
+
+.container-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 body {
@@ -86,8 +94,8 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 20px;
-  margin-left: 70px;
-  margin-right: 20px;
+  margin-left: 65px;
+  
 }
 
 .album-jason h4 {
@@ -101,11 +109,12 @@ body {
   color: white !important;
   font-family: 'Sumana', serif;
   margin-bottom: 15px;
+  margin-left: 0px;
 }
 
 .album-jason img {
   margin-bottom: 15px;
-  margin-left: 30px;
+  margin-left: 0px;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
@@ -184,17 +193,26 @@ body {
   margin-top: 23px;
 }
 
-.section-footer {
-  margin-top: 10px !important;
-}
-
-.foot {
+.section-footer h1 {
+  margin-top: 3%;
   font-family: 'Sumana', serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.foot .hr {
-  width: 200px;
-  border-top: 3px solid black;
+.section-footer hr {
+  width: 80%;
+  border-top: 2px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media (min-width: 319px) and (max-width: 418px) {
@@ -202,8 +220,52 @@ body {
     margin-right: 100px;
   }
   .merchandise img {
-    height: 100px !important;
-    width: 100p !important;
+    height: 250px !important;
+    width: 250px !important;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;  
+  }
+  .album-jason {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .album-jason button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 20px;
+    margin-left: 165px;
+    
+  }
+  
+  .album-jason h4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 22px;
+    color: white !important;
+    font-family: 'Sumana', serif;
+    margin-bottom: 15px;
+    margin-left: 100px;
+  }
+  
+  .album-jason img {
+    margin-bottom: 15px;
+    margin-left: 100px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
 }
 /*# sourceMappingURL=jason-ranti.css.map */
