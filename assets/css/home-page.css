@@ -38,6 +38,7 @@ footer img {
   width: 30px;
   margin-left: 10px;
   margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .container-footer {
@@ -131,7 +132,7 @@ body {
   width: 300px !important;
   height: 250px;
   margin-bottom: 20px;
-  margin-left: 60px;
+  margin-left: 0px;
 }
 
 .main3 button {
@@ -141,7 +142,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-left: 40%;
+  margin-left: 35%;
   margin-bottom: 20px;
 }
 

@@ -17,7 +17,8 @@
     height :300;
 }
 @import "./navigation";
-@import "./footer";
+@import "./footer"
+
 
 body{
     background-color: black;
@@ -71,9 +72,9 @@ body{
 }
 
 .main3{
-    
+    @include flexcenter();
     h3{
-        @include flexcenter();
+       
         color: white !important;
         font-family: 'Sumana', serif;
         margin-top: 20px;
@@ -131,17 +132,15 @@ body{
     }
 }
 
-.section-footer {
+.container-footer {
+    margin-bottom: 100px !important;
     h1{
-        margin-top : 3%;
-        font-family: 'Sumana', serif;
-        @include flexcenter();   
+        font-family: 'Sumana', serif;  
     }
     hr{
-        width:80%;
-        border-top : 2px solid;
-        @include flexcenter();
-       
+        width: 10%;
+        border-top: 2px solid;
+        color:black; 
     }
 }
 
@@ -206,6 +205,7 @@ body{
             height: 250px;
             margin-left : 30px;
         }
+       
     }
     .main4{
         img{

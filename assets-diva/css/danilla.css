@@ -1,132 +1,132 @@
 body {
-    background-color: black !important;
-  }
-  
-  header {
-    font-family: 'Roboto Slab', serif;
-  }
-  
-  .logo {
-    font-family: 'Lobster Two', cursive;
-    color: wheat;
-    font-size: x-large;
-  }
-  
-  .slide-show img {
-    width: 100%;
-    height: 70%;
-  }
-  
-  .container a {
-    color: wheat !important;
-  }
-  
-  .container a:hover {
-    color: grey !important;
-  }
-  
-  .main img {
-    width: 30%;
-    margin: 10px;
-  }
-  
-  .main {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  
-  .main h1 {
-    text-align: center;
-    font-family: 'Liu Jian Mao Cao', cursive !important;
-    color: wheat;
-  }
-  
-  .main hr {
-    color: wheat;
-    border-top: 2px solid wheat;
-    width: 20%;
-  }
-  
-  .album h3 {
-    font-family: 'Lobster Two', cursive !important;
-    color: wheat;
-    text-align: center;
-  }
-  
-  .main img {
-    width: 90%;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  
-  .album h3 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  
-  .album {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    margin-bottom: 2%;
-  }
-  
-  .album button {
-    margin-left: 40%;
-    margin-bottom: 5%;
-  }
-  
-  .main2 h1 {
-    text-align: center;
-    font-family: 'Liu Jian Mao Cao', cursive !important;
-    color: wheat;
-  }
-  
-  .main2 hr {
-    color: wheat;
-    border-top: 2px solid wheat;
-    width: 20%;
-  }
-  
-  .section-footer {
-    background-color: #424242 !important;
-    padding-top: 2%;
-  }
-  
-  .section-footer h3 {
-    text-align: center;
-    font-family: 'Lobster Two', cursive !important;
-    color: black;
-  }
-  
-  .section-footer hr {
-    color: black;
-    border-top: 2px solid black;
-    width: 20%;
-  }
-  
-  .footer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-left: 4%;
-  }
-  
-  .footer img {
-    width: 40%;
-  }
-  /*# sourceMappingURL=isyana.css.map */
+  background-color: black !important;
+}
+
+header {
+  font-family: 'Roboto Slab', serif;
+}
+
+.logo {
+  font-family: 'Lobster Two', cursive;
+  color: wheat;
+  font-size: x-large;
+}
+
+.slide-show img {
+  width: 100%;
+  height: 70%;
+}
+
+.container a {
+  color: wheat !important;
+}
+
+.container a:hover {
+  color: grey !important;
+}
+
+.main img {
+  width: 30%;
+  margin: 10px;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main h1 {
+  text-align: center;
+  font-family: 'Liu Jian Mao Cao', cursive !important;
+  color: wheat;
+}
+
+.main hr {
+  color: wheat;
+  border-top: 2px solid wheat;
+  width: 20%;
+}
+
+.album h3 {
+  font-family: 'Lobster Two', cursive !important;
+  color: wheat;
+  text-align: center;
+}
+
+.main img {
+  width: 90%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.album h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.album {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 2%;
+}
+
+.album button {
+  margin-left: 40%;
+  margin-bottom: 5%;
+}
+
+.main2 h1 {
+  text-align: center;
+  font-family: 'Liu Jian Mao Cao', cursive !important;
+  color: wheat;
+}
+
+.main2 hr {
+  color: wheat;
+  border-top: 2px solid wheat;
+  width: 20%;
+}
+
+.section-footer {
+  background-color: #424242 !important;
+  padding-top: 2%;
+}
+
+.section-footer h3 {
+  text-align: center;
+  font-family: 'Lobster Two', cursive !important;
+  color: black;
+}
+
+.section-footer hr {
+  color: black;
+  border-top: 2px solid black;
+  width: 20%;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 4%;
+}
+
+.footer img {
+  width: 40%;
+}
+/*# sourceMappingURL=danilla.css.map */
