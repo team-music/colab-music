@@ -206,7 +206,7 @@ body {
 
 .section-footer hr {
   width: 80%;
-  border-top: 2px solid;
+  border-top: 2px solid black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
