@@ -1,4 +1,4 @@
-## Colaboration Team Music
+## Colaboration Team Music (Grup 2)
 Ini merupakan website tentang musisi, website ini terdiri dari 6 halaman, yaitu:
 1. [halaman Home](https://colabmusic.netlify.com/) by [@EnggarSe](https://github.com/EnggarSe)
 2. [halaman Jason ranty](https://colabmusic.netlify.com/jason.html) by [@EnggarSe](https://github.com/EnggarSe)
