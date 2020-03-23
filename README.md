@@ -1,11 +1,11 @@
 ## Colaboration Team Music
 Ini merupakan website tentang musisi, website ini terdiri dari 6 halaman, yaitu:
-1. [halaman Home](https://colabmusic.netlify.com/)
-2. [halaman Jason ranty](https://colabmusic.netlify.com/jason.html)
-3. [halaman Barasuara](https://colabmusic.netlify.com/bara.html)
-4. [halaman Danilla](https://colabmusic.netlify.com/danilla.html)
-5. [halaman Raisa](https://colabmusic.netlify.com/raisha.html)
-7. [halaman Isyana.](https://colabmusic.netlify.com/isyana.html)
+1. [halaman Home](https://colabmusic.netlify.com/) by [@EnggarSe](https://github.com/EnggarSe)
+2. [halaman Jason ranty](https://colabmusic.netlify.com/jason.html) by [@EnggarSe](https://github.com/EnggarSe)
+3. [halaman Barasuara](https://colabmusic.netlify.com/bara.html) by [@Divayuriandwika](https://github.com/Divayuriandwika)
+4. [halaman Danilla](https://colabmusic.netlify.com/danilla.html) by [@Divayuriandwika](https://github.com/Divayuriandwika)
+5. [halaman Raisa](https://colabmusic.netlify.com/raisha.html) by [@jumadimuhammad](https://github.com/jumadimuhammad)
+7. [halaman Isyana.](https://colabmusic.netlify.com/isyana.html) by [@jumadimuhammad](https://github.com/jumadimuhammad)
 
 
 Pada halaman home terdiri dari:
